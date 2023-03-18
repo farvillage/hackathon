@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +7,45 @@
     
     <title>Assistente de Saúde Mental</title>
     
-    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
 </head>
 
 <body>
-    #tell us how you're feeling
+    
+    <!--tell us how you're feeling-->
     <div class="mood" id="mood">
     
-    #quiz
-    <form  
-      <label> 
+    <!--quiz-->
+    <form id='form'  
+      <label id="ftoday"> 
         <p> Como você está se sentindo hoje? </p>
           <p>
             <textarea id="mood" rows="5" cols="50">      
           </p>
-          <button type="submit"> Enviar resposta! </button>    
+          <button type="submit" onclick="send_res()"> Enviar resposta! </button>    
       </label>
     </form>
+  
+  <!--popup-->
+  <div
+    class="popup" onclick="selfHelp()"> Click me!
+    <span class="popupText" id="myPopup"> Tudo bem se não conseguir sorrir hoje :)</span>
+  </div>
+  
+  <!--popup chat window -->
+  <div class="chatPopup" id="myForm">
+    <form action="/action_page.php" class="formContainer">
+      <h1> Desabafe </h1>
+      
+      <label>for="msg"><b>Escreva</b></label>
+      <textarea placeholder="Escreva..." name="msg" required></textarea>
+      
+      <button type="submit" class="btn" onclick="openForm()">Enviar!</button>
+      <button type="submit" class="btn cancel" onclick="closeForm()">Fechar</button>
+    </form>
+  </div>
 
+<script src="script.js"></script>
 </body>
 </html>
