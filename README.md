@@ -4,9 +4,9 @@
 Our first project for a Hackathon:
 
   Collaborators:
-  @farvillage (Headmaster - HTML & JavaScript)__
-  @Betoitiro (JavaScript & API)__
-  @sennags (CSS)__
-  @gustavomav ( )__
-  @jvuchoa (Python)__
+  @farvillage (Headmaster - HTML & JavaScript)
+  @Betoitiro (JavaScript & API)
+  @sennags (CSS)
+  @gustavomav ( )
+  @jvuchoa (Python)
 ##
