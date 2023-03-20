@@ -17,12 +17,8 @@
       <h1>Saúde</h1>
       <h1>Mental</h1>
     </div>
-    <ul>
-      <a href="#">Meditação</a>
-      <a href="quem_somos.html">Quem somos?</a>
-      <a href="#">Contato</a>
-    </ul>
   </header>
+
   <!--tell us how you're feeling-->
   <div class="mood" id="mood">
     <!-- quiz -->
@@ -32,9 +28,9 @@
         <textarea id="mood" rows="5" cols="50"></textarea> <br>
         <button type="submit" id='send_res' onclick="send_res()" onmouseenter="expand()" onmouseleave="retract()"> Me Conte! </button> 
       </label>
-    </form>
-  
+    </form>  
   </div>
+
   <!--popup-->
   <div
     class="popup" onclick="selfHelp()"> Click me!
@@ -52,6 +48,15 @@
       <button type="submit" class="btn" onclick="openForm()">Enviar!</button>
       <button type="submit" class="btn cancel" onclick="closeForm()">Fechar</button>
     </form>
+  </div>
+
+  <div class="topNav">
+    <a class="active" href="#home">Início</a>
+    <a href="#meditação">Meditação</a>
+    <a href="#quemSomos">Quem somos?</a>
+    <a style="float:right" href="#about">Sobre</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+      <i class="fa fa-bars"></i>
   </div>
 
 <script src="script.js"></script>

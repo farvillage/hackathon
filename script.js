@@ -1,4 +1,4 @@
-// popup
+//popup
 function selfHelp() {
    var popup = document.getElementById("myPopup");
    popup.classList.toggle("show")
@@ -23,3 +23,14 @@ function retract() {
    var botao = document.getElementById('send_res')
    botao.style.backgroundColor = 'white'
    botao.style.transform = 'none'
+}
+
+//top nav bar
+function myFunction() {
+   var x = document.getElementById("topNav");
+   if (x.className === "topNav") {
+     x.className += " responsive";
+   } else {
+     x.className = "topNav";
+   }
+ }
