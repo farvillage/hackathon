@@ -4,6 +4,16 @@ body {
     box-shadow: 1px 1px 10px black;
     border-radius: 10px;
     font-size: 20px;
+    font-family: Dosis;
+}
+/*keyframes-animation*/
+@keyframes slideIn{
+    from {
+        transform: translateX(-40px);
+    }
+    to {
+        transform: translatex(0);
+    }
 }
 
 /*Home*/
@@ -22,7 +32,9 @@ a {
     text-decoration: none;
     color: black
 }
-div#title {
+div.title {
+    /*animatiom: name duration timming-function delay interation-count direction fill-mode*/
+    animation: slideIn 1s ease-in 0s 1 normal none;
     flex-direction: column;
     line-height: 10px;
     margin: 30px;
