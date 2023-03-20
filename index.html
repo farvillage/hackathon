@@ -12,21 +12,29 @@
 </head>
 
 <body>
-    
-    <!--tell us how you're feeling-->
-    <div class="mood" id="mood">
-    
-    <!--quiz-->
-    <form id='form'  
+  <header>
+    <div id="title">
+      <h1>Saúde</h1>
+      <h1>Mental</h1>
+    </div>
+    <ul>
+      <a href="#">Meditação</a> <!--Colocar como opção, embaixo do título.-->
+      <a href="quem_somos.html">Quem somos?</a>
+      <a href="#">Contato</a>
+    </ul>
+  </header>
+  <!--tell us how you're feeling-->
+  <div class="mood" id="mood">
+    <!-- quiz -->
+    <form id='form'>
       <label id="ftoday"> 
         <p> Como você está se sentindo hoje? </p>
-          <p>
-            <textarea id="mood" rows="5" cols="50">      
-          </p>
-          <button type="submit" onclick="send_res()"> Enviar resposta! </button>    
+        <textarea id="mood" rows="5" cols="50"></textarea> <br>
+        <button type="submit" id='send_res' onclick="send_res()" onmouseenter="expand()" onmouseleave="retract()"> Me Conte! </button> 
       </label>
     </form>
   
+  </div>
   <!--popup-->
   <div
     class="popup" onclick="selfHelp()"> Click me!
@@ -38,7 +46,7 @@
     <form action="/action_page.php" class="formContainer">
       <h1> Desabafe </h1>
       
-      <label>for="msg"><b>Escreva</b></label>
+      <label for="msg"><b>Escreva</b></label>
       <textarea placeholder="Escreva..." name="msg" required></textarea>
       
       <button type="submit" class="btn" onclick="openForm()">Enviar!</button>
