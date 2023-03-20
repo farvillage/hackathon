@@ -1,14 +1,40 @@
 body {
-    background-color: yellow;
+    background-color: aquamarine;
     color: black;
-    font: normal 20px Arial;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 10px;
+    font-size: 20px;
 }
+
+/*Home*/
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    margin: 30px;
+    padding: 10px;
+    
+}
+a {
+    text-decoration: none;
+    color: black
+}
+div#title {
+    flex-direction: column;
+    line-height: 10px;
+    margin: 30px;
+    padding: 10px;
+}
+
 /*Como você está se sentindo?*/
 div#mood {
     text-align: center;
     margin: auto;
     margin-block-end: 5%;
-    margin-top: 5%;
+    margin-top: 10px;
     background-color: white;
     padding: 10px;
     width: 600px;
@@ -35,22 +61,4 @@ button#send_res{
     cursor: pointer;
     background-color: white;
     transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out;
-}
-
-/*Home*/
-nav#home {
-    padding: 10px;
-    border-color: black;
-    border-width: 0.1px;
-    border-style: solid;
-    text-align: center;
-    background-color: white;
-    
-}
-header#saude_mental {
-    padding: 20px;
-    text-align: center;
-    font-size: 50px;
-    text-decoration-line: inherit;
-    text-decoration-color: black;
 }
