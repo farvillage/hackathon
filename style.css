@@ -20,6 +20,9 @@ body {
 .topNav{
     background-color: #FFD400;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 /* estilo dos links */
 .topNav a{
