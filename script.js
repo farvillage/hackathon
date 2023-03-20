@@ -23,4 +23,3 @@ function retract() {
    var botao = document.getElementById('send_res')
    botao.style.backgroundColor = 'white'
    botao.style.transform = 'none'
-}
