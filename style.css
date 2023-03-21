@@ -1,18 +1,9 @@
 body {
-    background-color: #fffafa;
+    background-color: #F0F8FF;
     color: black;
     border-radius: 10px;
     font-size: 20px;
     font-family: Dosis;
-}
-/*keyframes-animation*/
-@keyframes slideIn{
-    from {
-        transform: translateX(-300px);
-    }
-    to {
-        transform: translatex(0);
-    }
 }
 
 /* top navegation bar */
@@ -73,12 +64,11 @@ a {
 div.title {
     /*animatiom: name duration timming-function delay interation-count direction fill-mode*/
     animation: 
-        backInDown 1s ease 0s 1,
-        headShake 1s ease 0.9s 1;
-    flex-direction: column;
-    line-height: 30px;
-    margin: 30px;
+        backInDown 2.3s ease 0s 1;
+    text-align: center;
+    margin: 100px;
     padding: 10px;
+    width: 100%;
 }
 
 /*Como você está se sentindo?*/
