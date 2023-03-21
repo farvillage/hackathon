@@ -17,10 +17,11 @@ body {
 
 /* top navegation bar */
 .topNav{
+    margin: -8px;
     background-color: #FFD400;
     overflow: hidden;
     position: fixed;
-    top: 0;
+    top: 8px;
     width: 100%;
 }
 /* estilo dos links */
