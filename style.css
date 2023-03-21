@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #fffafa;
     color: black;
     border-radius: 10px;
     font-size: 20px;
@@ -71,9 +71,11 @@ a {
 }
 div.title {
     /*animatiom: name duration timming-function delay interation-count direction fill-mode*/
-    animation: slideIn 1s ease 0s 1 normal none;
+    animation: 
+        backInDown 1s ease 0s 1,
+        headShake 1s ease 0.9s 1;
     flex-direction: column;
-    line-height: 10px;
+    line-height: 30px;
     margin: 30px;
     padding: 10px;
 }
