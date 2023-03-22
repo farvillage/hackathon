@@ -7,6 +7,6 @@ Our first project for a Hackathon:
   @farvillage (Headmaster - HTML & CSS) <br/>
   @Betoitiro (JavaScript & API) <br/>
   @sennags (CSS & HTML) <br/>
-  @gustavomav ( ) <br/>
+  @gustavomav (Arquitetura do Site) <br/>
   @jvuchoa (Python)<br/>
 ##
