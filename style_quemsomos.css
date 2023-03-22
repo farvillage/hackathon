@@ -1,0 +1,37 @@
+body {
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*início*/
+h1 {
+    /*animatiom: name duration timming-function delay interation-count direction fill-mode*/
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0s 1,
+    fadeOut 1.5s ease-out 1s 1 none;
+}
+/*nomes*/
+.nomes #yg {
+    animation: slideInLeft 2.5s ease-in-out;
+    text-decoration: none;
+    color: black;
+}
+.nomes #s {
+    animation: slideInLeft 2.6s ease-in-out;
+    text-decoration: none;
+    color: black;
+}
+.nomes #h {
+    animation: slideInLeft 2.7s ease-in-out;
+    text-decoration: none;
+    color: black;
+}
+.nomes #g {
+    animation: slideInLeft 2.8s ease-in-out;
+    text-decoration: none;
+    color: black;
+}
+.nomes #c {
+    animation: slideInLeft 2.9s ease-in-out;
+    text-decoration: none;
+    color: black;
+}

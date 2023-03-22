@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Assistente de Saúde Mental</title>
     
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet"/>
     <link href="style.css" rel="stylesheet"/>
-</head>
+</head> 
 
 <body>
   <header>
     <div class="title">
-      <h1>Saúde</h1>
-      <h1>Mental</h1>
+      <h1>Mental-Happiness</h1>
     </div>
   </header>
+
 
   <!--tell us how you're feeling-->
   <div class="mood" id="mood">
@@ -29,15 +29,15 @@
         <button type="submit" id='send_res' onclick="send_res()" onmouseenter="expand()" onmouseleave="retract()"> Me Conte! </button> 
       </label>
     </form>  
+    </form>  
   </div>
-
-  <!--popup-->
+  <!--popup
   <div
     class="popup" onclick="selfHelp()"> Click me!
     <span class="popupText" id="myPopup"> Tudo bem se não conseguir sorrir hoje :)</span>
   </div>
-  
-  <!--popup chat window -->
+  -->
+  <!--popup chat window
   <div class="chatPopup" id="myForm">
     <form action="/action_page.php" class="formContainer">
       <h1> Desabafe </h1>
@@ -49,16 +49,17 @@
       <button type="submit" class="btn cancel" onclick="closeForm()">Fechar</button>
     </form>
   </div>
+  -->
 
   <div class="topNav">
     <a class="active" href="#home">Início</a>
-    <a href="meditação.html">Meditação</a>
-    <a href="quemSomos.html">Quem somos?</a>
-    <a style="float:right" href="about.html">Sobre</a>
+    <a href="#meditação">Meditação</a>
+    <a href="quem_somos.html">Quem somos?</a>
+    <a style="float:right" href="#about">Sobre</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
       <i class="fa fa-bars"></i>
   </div>
-
+  <p style="position: fixed; bottom: 0; text-align: center; width: 100%;">Copyright (&copy;) 2020 Animate.css</p> <!--POR enquanto, para não esquecermos.-->
 <script src="script.js"></script>
 </body>
 </html>
