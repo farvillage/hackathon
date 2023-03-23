@@ -1,12 +1,12 @@
 ##
 ### Hackathon:
-Our first project for a Hackathon:
+Our first project for a Hackathon: Zenplace.
 
   Collaborators: <br/>
 
-  @farvillage (Headmaster - HTML & CSS) <br/>
-  @Betoitiro (JavaScript & API) <br/>
-  @sennags (CSS & HTML) <br/>
-  @gustavomav (Arquitetura do Site) <br/>
-  @jvuchoa (Python)<br/>
+  @farvillage (Headmaster - HTML, CSS & JavaScript). <br/>
+  @Betoitiro (JavaScript & API). <br/>
+  @sennags (CSS Animations & HTML). <br/>
+  @jvuchoa (Python). <br/>
+  @gustavomav (Website Structure). <br/>
 ##
