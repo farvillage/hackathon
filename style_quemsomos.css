@@ -1,36 +1,136 @@
 body {
-    background-color: bisque;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #F0F8FF;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Dosis;
 }
+
+/* top navegation bar */
+.topNav{
+    margin: -8px;
+    background-color: #FFD400;
+    overflow: hidden;
+    position: fixed;
+    top: 8px;
+    width: 100%;
+}
+/* estilo dos links */
+.topNav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* cor dos links no hover */
+.topNav a:hover{
+    background-color: #FFBF00;
+    color: black;
+}
+/* add cor no link */
+.topNav a.active{
+    background-color: black;
+    color: white;
+}
+/* on click */
+.topNav .onclick{
+    display: none;
+}
+/* travar nav */
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+/* top navegation bar */
+.topNav{
+    background-color: #FFD400;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* estilo dos links */
+.topNav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* cor dos links no hover */
+.topNav a:hover{
+    background-color: #FFBF00;
+    color: black;
+}
+/* add cor no link */
+.topNav a.active{
+    background-color: black;
+    color: white;
+}
+/* on click */
+.topNav .onclick{
+    display: none;
+}
+/* travar nav */
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
+
+/*Home*/
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    margin: 30px;
+    padding: 10px;
+    
+}
+a {
+    text-decoration: none;
+    color: black
+}
+
 /*início*/
-h1 {
+h1#quem {
     /*animatiom: name duration timming-function delay interation-count direction fill-mode*/
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0s 1,
     fadeOut 1.5s ease-out 1s 1 none;
 }
 /*nomes*/
-.nomes #yg {
+#yg {
     animation: slideInLeft 2.5s ease-in-out;
     text-decoration: none;
     color: black;
 }
-.nomes #s {
+#s {
     animation: slideInLeft 2.6s ease-in-out;
     text-decoration: none;
     color: black;
 }
-.nomes #h {
+#h {
     animation: slideInLeft 2.7s ease-in-out;
     text-decoration: none;
     color: black;
 }
-.nomes #g {
+#g {
     animation: slideInLeft 2.8s ease-in-out;
     text-decoration: none;
     color: black;
 }
-.nomes #c {
+#c {
     animation: slideInLeft 2.9s ease-in-out;
     text-decoration: none;
     color: black;
