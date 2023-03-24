@@ -101,6 +101,15 @@ a {
     text-decoration: none;
     color: black
 }
+div.title {
+    /*animatiom: name duration timming-function delay interation-count direction fill-mode*/
+    animation: 
+        backInDown 2.3s ease 0s 1;
+    text-align: center;
+    margin: 100px;
+    padding: 10px;
+    width: 100%;
+}
 
 /*início*/
 h1#quem {
