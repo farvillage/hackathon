@@ -5,31 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <title>Assistente de Saúde Mental</title>
-    
+    <title>Zenplace</title>
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet"/>
     <link href="style.css" rel="stylesheet"/>
 </head> 
 
 <body>
-  <header>
-    <div class="title">
-      <h1>Zenplace</h1>
-    </div>
-  </header>
-
-
-  <!--tell us how you're feeling-->
-  <div class="mood" id="mood">
-    <!-- quiz -->
-    <form id='form'>
-      <label id="ftoday"> 
-        <p> Como você está se sentindo hoje? </p>
-        <textarea id="mood" rows="5" cols="50"></textarea> <br>
-        <button type="submit" id='send_res' onclick="send_res()" onmouseenter="expand()" onmouseleave="retract()"> Me Conte! </button> 
-      </label>
-    </form>  
-    </form>  
+  <div class="title">
+    <h1>Zenplace</h1>
   </div>
 
   <div class="topNav">
@@ -43,26 +26,25 @@
   <p style="position: fixed; bottom: 0; text-align: center; width: 100%;">Copyright (&copy;) 2020 Animate.css</p> <!--POR enquanto, para não esquecermos.-->
 
   <!--testar o espaçamento de linha (text-justify)-->
-  <div class="header">
+  <header class="header">
     <p>O que é o projeto "Zenplace"? </p>
     <h3>
       O projeto "Zenplace" foi desenvolvido por alunos do primeiro período do curso de Sistemas para Internet na UNIESP. A UNIESP proporciona certos Hackathons, que, nós estudantes decidimos participar para finalidades educacionais.
     </h3>
-  </div>
+  </header>
 
   <div class="display">
     <p>Zenplace:</p>
       <h3>
         Zenplace é um ambiente virtual que se utiliza do ChatGPT para o usuário desabafar um pouco dos seus problemas enquanto se acalma escutando músicas relaxantes ao seu gosto. O projeto não visa substituir o estudo e trabalho de um Psicólogo ou Psiquiatra, apenas queremos incentivar a sua importância e que o usuário procure o tratamento adequado.
       </h3>
-    <a href="#meditação">Meditação</a> <!--meditação será o lugar onde terá o chatgpt e músicas relaxantes enquanto desabafa(asmr,...)-->
+    <a href="#meditação">Meditação</a> <!--meditação será o lugar onde terá o chatgpt e músicas relaxantes enquanto desabafa(lofi,...)-->
   </div>
 
-  <div class="footer">
+  <div class="quem_somos">
     <p>Quem somos?</p>
       <h3>
-        Somos estudantes de Sistemas para Internet da UNIESP.
-        Meios de contato:
+        Somos estudantes do primeiro período de Sistemas para Internet da UNIESP.
       </h3>
     <label id="yg"></label> 
     <label id="s"></label>
@@ -70,7 +52,10 @@
     <label id="g"></label>
     <label id="u"></label>
   </div>
+  
+  <footer>
 
+  </footer>
 <script src="script.js"></script>
 </body>
 </html>

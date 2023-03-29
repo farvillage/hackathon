@@ -13,7 +13,7 @@ function closeForm() {
    document.getElementById("myForm").style.display = "none";
 }
 
-// expandir os botões
+//expandir os botões
 function expand() {
    var botao = document.getElementById('send_res')
    botao.style.backgroundColor = 'cornflowerblue'
