@@ -62,7 +62,7 @@ a {
 }
 .limpeza-link, .yoga-link, .lofi-link, .asmr-link {
     justify-content: space-around;
-    background-coloFFFDD0;
+    background-color: #FFFDD0;
     border-radius: 12px;
     color: #000;
     cursor: pointer;
