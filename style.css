@@ -11,14 +11,17 @@ body {
     font-size: 17px;
     display: flex;
     box-shadow: 0px 4px 10px 0px rgba(255,204,121,1);
-    justify-content: space-between; /*Para separar os itens da nav-left e nav-right*/
+    justify-content: space-between;
 }
 a {
     text-decoration: none; 
     color: black;
 }
 .inicio:hover,.desabafe:hover,.quemsomos:hover,.about:hover {
-    background-color: #FFFFF0;
+    background-color: #FF7373;
+    border-radius: 20px;
+    max-width: 100%;
+    transition: background-color 500ms ease-in-out;
     
 }
 .navbar_left div, .navbar_right div {
