@@ -48,12 +48,65 @@ a {
 
 /*home*/
 .container {
-    line-height: 65px;
     display: flex;
     margin: 15px;
     align-items: center;
     justify-content: space-between;
-    position: relative;
-    font-size: 30px;
     padding: 20px;
+    
+}
+.img-meditacion {
+    max-width: 10%;
+    height: 10%;
+    
+}
+.limpeza-link, .yoga-link, .lofi-link, .asmr-link {
+    justify-content: space-around;
+    background-coloFFFDD0;
+    border-radius: 12px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 200ms;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 20px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.limpeza-link:not(:disabled):hover, .yoga-link:not(:disabled):hover, .lofi-link:not(:disabled):hover, .asmr-link:not(:disabled):hover,
+.limpeza-link:not(:disabled):hover, .yoga-link:not(:disabled):hover, .lofi-link:not(:disabled):hover, .asmr-link:not(:disabled):focus {
+    outline: 0;
+    background: #f4e603;
+    box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.limpeza-link:disabled, .yoga-link:disabled, .lofi-link:disabled, .asmr-link:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    -webkit-filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+}
+/*footer*/
+.footer {
+    background-color: #FFFDD0;
+    padding: 20px;
+    font-size: 17px;
+    display: flex;
+    -webkit-box-shadow: 0px -4px 10px 0px rgba(255,204,121,1);
+    -moz-box-shadow: 0px -4px 10px 0px rgba(255,204,121,1);
+    box-shadow: 0px -4px 10px 0px rgba(255,204,121,1);
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footer-right {
+    text-transform: uppercase;
+    font-weight: 600;
 }
