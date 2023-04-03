@@ -81,7 +81,7 @@ a {
 .limpeza-link:not(:disabled):hover, .yoga-link:not(:disabled):hover, .lofi-link:not(:disabled):hover, .asmr-link:not(:disabled):hover,
 .limpeza-link:not(:disabled):hover, .yoga-link:not(:disabled):hover, .lofi-link:not(:disabled):hover, .asmr-link:not(:disabled):focus {
     outline: 0;
-    background: #f4e603;
+    background: #F7CE68;
     box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
 }
 

@@ -1,112 +1,67 @@
 body {
-    background-color: #F0F8FF;
+    background-color: #FFFFF0; /*#FFFFF0 cor para por quando a tela abaixar #FFCC79*/ 
     color: black;
-    border-radius: 10px;
-    font-size: 20px;
     font-family: Dosis;
 }
-
-/* top navegation bar */
-.topNav{
-    margin: -8px;
-    background-color: #FFD400;
-    overflow: hidden;
-    position: fixed;
-    top: 8px;
-    width: 100%;
-}
-/* estilo dos links */
-.topNav a{
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+/*topbar*/
+.header {
+    border-radius: 20px;
+    background-color: #FFFDD0;
+    padding: 20px;
     font-size: 17px;
-}
-/* cor dos links no hover */
-.topNav a:hover{
-    background-color: #FFBF00;
-    color: black;
-}
-/* add cor no link */
-.topNav a.active{
-    background-color: black;
-    color: white;
-}
-/* on click */
-.topNav .onclick{
-    display: none;
-}
-/* travar nav */
-ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
-/* top navegation bar */
-.topNav{
-    background-color: #FFD400;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-/* estilo dos links */
-.topNav a{
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-/* cor dos links no hover */
-.topNav a:hover{
-    background-color: #FFBF00;
-    color: black;
-}
-/* add cor no link */
-.topNav a.active{
-    background-color: black;
-    color: white;
-}
-/* on click */
-.topNav .onclick{
-    display: none;
-}
-/* travar nav */
-ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
-
-
-/*Home*/
-header {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    box-shadow: 0px 4px 10px 0px rgba(255,204,121,1);
     justify-content: space-between;
 }
-ul {
-    margin: 30px;
-    padding: 10px;
+a {
+    text-decoration: none; 
+    color: black;
+}
+.inicio:hover,.desabafe:hover,.quemsomos:hover,.about:hover {
+    background-color: #FF7373;
+    border-radius: 20px;
+    max-width: 100%;
+    transition: background-color 500ms ease-in-out;
     
 }
-a {
-    text-decoration: none;
-    color: black
+.navbar_left div, .navbar_right div {
+    text-transform: uppercase;
+    font-weight: 600;
 }
-div.title {
-    /*animatiom: name duration timming-function delay interation-count direction fill-mode*/
-    animation: 
-        backInDown 2.3s ease 0s 1;
-    text-align: center;
-    margin: 100px;
+.navbar_center { /*Trocar a fonte??*/
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFAA33;
+}
+.navbar_left, .navbar_right, .navbar_center {
+    display: flex;
+    align-items: center;
+}
+.navbar_left > * {
     padding: 10px;
+}
+.navbar_right > * {
+    padding: 10px;
+}
+
+
+.footer {
+    background-color: #FFFDD0;
+    padding: 20px;
+    font-size: 17px;
+    display: flex;
+    box-shadow: 0px -4px 10px 0px rgba(255,204,121,1);
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
+}
+.footer-right {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.footer-right > * {
+    padding: 10px;
 }
