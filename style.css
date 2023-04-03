@@ -54,7 +54,7 @@ a {
     padding: 20px;
     
 }
-.links-meditacion div {
+.links-meditation div {
     box-shadow: 0px 0px 10px 0px rgba(255,204,121,1);
     padding: 20px;
     margin-top: 20px;
@@ -90,6 +90,7 @@ a {
     -webkit-filter: saturate(0.2) opacity(0.5);
     cursor: not-allowed;
 }
+
 /*footer*/
 .footer {
     background-color: #FFFDD0;
@@ -110,4 +111,20 @@ a {
 .footer-right > * {
     padding: 10px;
 }
-/**/
+/*animações*/
+.img-meditation {
+    animation: fadeIn 1s ease-in,
+    pulse 3s ease-in-out 1.5s infinite normal;
+}
+.limpeza-link{
+    animation: flipInY 3.5s ease 1;
+}
+.yoga-link {
+    animation: flipInY 3.7s ease 1;
+}
+.lofi-link {
+    animation: flipInY 3.9s ease 1;
+}
+.asmr-link {
+    animation: flipInY 4.2s ease 1;
+}
