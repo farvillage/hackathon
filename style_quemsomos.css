@@ -119,27 +119,27 @@ h1 {
     fadeOut 1.5s ease-out 1s 1 none;
 }
 /*nomes*/
-#yg {
+.description{
     animation: slideInLeft 2.5s ease-in-out;
     text-decoration: none;
     color: black;
 }
-#s {
+#description2{
     animation: slideInLeft 2.6s ease-in-out;
     text-decoration: none;
     color: black;
 }
-#h {
+.description1{
     animation: slideInLeft 2.7s ease-in-out;
     text-decoration: none;
     color: black;
 }
-#g {
+.description4{
     animation: slideInLeft 2.8s ease-in-out;
     text-decoration: none;
     color: black;
 }
-#u {
+.description3{
     animation: slideInLeft 2.9s ease-in-out;
     text-decoration: none;
     color: black;
