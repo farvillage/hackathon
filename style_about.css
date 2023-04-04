@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #FFFFF0;
+    --secundary-color: #FF7373;
+}
 body {
     background-color: #FFFFF0; /*#FFFFF0 cor para por quando a tela abaixar #FFCC79*/ 
     color: black;
@@ -12,6 +16,7 @@ body {
     display: flex;
     box-shadow: 0px 4px 10px 0px rgba(255,204,121,1);
     justify-content: space-between;
+    align-items: center;
 }
 a {
     text-decoration: none; 
@@ -28,13 +33,13 @@ a {
     text-transform: uppercase;
     font-weight: 600;
 }
-.navbar_center { /*Trocar a fonte??*/
+.navbar_left { /*Trocar a fonte??*/
     text-transform: uppercase;
     font-weight: 600;
     font-size: 24px;
     color: #FFAA33;
 }
-.navbar_left, .navbar_right, .navbar_center {
+.navbar_left, .navbar_right {
     display: flex;
     align-items: center;
 }
@@ -45,6 +50,23 @@ a {
     padding: 10px;
 }
 
+#about-all {
+    margin: auto;
+    margin-top: 60px;
+    padding: 15px;
+    width: 50%;
+    background-color: var(--primary-color);
+    border: #FF7373 solid;
+    border-radius: 20px;
+    background-color: #FFFDD0;
+}
+.sobre{
+    font-size: 22px;
+    text-align: justify;
+}
+.credits {
+    text-align: center;
+}
 
 .footer {
     background-color: #FFFDD0;
@@ -52,16 +74,9 @@ a {
     font-size: 17px;
     display: flex;
     box-shadow: 0px -4px 10px 0px rgba(255,204,121,1);
-    justify-content: center;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-}
-.footer-right {
-    text-transform: uppercase;
-    font-weight: 600;
-}
-.footer-right > * {
-    padding: 10px;
+    align-items: center;
 }
