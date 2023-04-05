@@ -115,7 +115,7 @@ a {
 .descricoes a {
     color: var(--secundary-color);
 }
-.limpeza-descricao div, a, .yoga-descricao div, a, .lofi-descricao div, a, .asmr-descricao div, a {
+.limpeza-descricao div, .yoga-descricao div, .lofi-descricao div, .asmr-descricao div {
     font-size: 20px;
     padding: 15px;
     text-align: justify;
