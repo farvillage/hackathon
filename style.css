@@ -4,15 +4,17 @@
     --terciary-color: rgba(255,204,121,1);
 }
 body {
-    background-color: #FFFFF0; /*#FFFFF0 cor para por quando a tela abaixar #FFCC79*/ 
+    background-color: #FFFFF0;
     color: black;
     font-family: Dosis;
+    margin: 0;
 }
 /*topbar*/
 .header {
     border-radius: 20px;
     background-color: #FFFDD0;
     padding: 20px;
+    margin: 10px;
     font-size: 18px;
     display: flex;
     box-shadow: 0px 4px 10px 0px rgba(255,204,121,1);
@@ -75,7 +77,6 @@ a {
     padding: 10px 15px;
     transition: 200ms;
     text-align: center;
-    width: 100%;
     box-sizing: border-box;
     border: 0;
     font-size: 20px;
@@ -97,6 +98,33 @@ a {
     cursor: not-allowed;
 }
 
+/*home 2*/
+.background {
+    background-color: #abc8cc;
+    border-top: #8db0b5 solid;
+}
+.descricoes {
+    border: var(--secundary-color) solid;
+    border-radius: 20px;
+    box-shadow: 0 0 10px var(--secundary-color);
+    background-color: #F9F6EE;
+    padding: 25px;
+    width: 70%;
+    margin: auto;
+}
+.descricoes a {
+    color: var(--secundary-color);
+}
+.limpeza-descricao div, a, .yoga-descricao div, a, .lofi-descricao div, a, .asmr-descricao div, a {
+    font-size: 20px;
+    padding: 15px;
+    text-align: justify;
+}
+.limpeza-descricao h1, .yoga-descricao h1, .lofi-descricao h1, .asmr-descricao h1 {
+    align-items: center;
+    text-align: center;
+}
+
 /*scroolbar*/
 ::-webkit-scrollbar {
     width: 12px;
@@ -111,7 +139,7 @@ a {
 
 /*footer*/
 .push {
-    height: 80px;
+    height: 100px;
 }
 .footer {
     background-color: #FFFDD0;
