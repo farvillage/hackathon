@@ -1,6 +1,7 @@
 :root {
     --primary-color: #FFFFF0;
     --secundary-color: #FF7373;
+    --terciary-color: rgba(255,204,121,1);
 }
 body {
     background-color: #FFFFF0; /*#FFFFF0 cor para por quando a tela abaixar #FFCC79*/ 
@@ -96,12 +97,26 @@ a {
     cursor: not-allowed;
 }
 
+/*scroolbar*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background: #FFFDD0;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #FFFDD0;
+    border-radius: 20px;
+}
+
 /*footer*/
+.push {
+    height: 80px;
+}
 .footer {
     background-color: #FFFDD0;
     padding: 20px;
     font-size: 17px;
-    display: flex;
     box-shadow: 0px -4px 10px 0px rgba(255,204,121,1);
     position: fixed;
     left: 0;
