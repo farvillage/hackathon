@@ -1,6 +1,6 @@
 ##
 ### Hackathon:
-Our first project for a Hackathon: Zenplace.
+Our first project for a Hackathon: ZenPlace.
 
   Collaborators: <br/>
 
