@@ -21,7 +21,7 @@ a {
     text-decoration: none; 
     color: black;
 }
-.inicio:hover, .desabafe:hover, .quemsomos:hover, .about:hover {
+.inicio:hover,.desabafe:hover,.quemsomos:hover,.about:hover {
     background-color: #FF7373;
     border-radius: 20px;
     max-width: 100%;
@@ -52,22 +52,35 @@ a {
 }
 
 /*home*/
-.somos {
-    display: inline-flex;
-    padding: 15px;
+* {
+    box-sizing: border-box;
+}
+.content {
+    display: flex;
     width: 90%;
-    text-align: center;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 80px;
 }
-.name {
-    font-size: 17px;
-    text-transform: uppercase;
+textarea {
+    resize: none;
+    border-radius: 20px;
+    border: #FF7373 solid;
+    padding: 8px;
+    background-color: #FFFDD0;
+    color: black;
+    outline: none;
+    font-size: 24px;
+    text-align: justify;
 }
-.description {
-    padding: 10px;
+textarea:focus {
+    border: 1px solid #FF7373;
+}
+::-webkit-scrollbar {
+    width: 10px;
 }
 
-/*footer*/
 .footer {
     background-color: #FFFDD0;
     padding: 20px;
