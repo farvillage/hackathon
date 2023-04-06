@@ -1,5 +1,6 @@
 const inputQuestion = document.getElementById("inputQuestion");
 const result = document.getElementById("result");
+require('dotenv').config()
 
 inputQuestion.addEventListener("keypress", (e) => {
     if (inputQuestion.value && e.key === "Enter")
@@ -8,7 +9,7 @@ inputQuestion.addEventListener("keypress", (e) => {
     return false
 });
 
-const OPENAI_API_KEY = ""; //api key!!!!!! (link with key.txt)
+
 
 function SendQuestion() {
     var sQuestion = inputQuestion.value;
@@ -18,7 +19,7 @@ function SendQuestion() {
         headers: {
             Accept: "application/json",
             "Content-Type": "application/json",
-            Authorization: "Bearer " + OPENAI_API_KEY,
+            Authorization: "Bearer " + process.env.GPT_KEY,
         },
         body: JSON.stringify({
             model: "text-davinci-003",
