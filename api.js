@@ -8,7 +8,7 @@ inputQuestion.addEventListener("keypress", (e) => {
     return false
 });
 
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = ""; //api key!!!!!! (link with key.txt)
 
 function SendQuestion() {
     var sQuestion = inputQuestion.value;
@@ -56,3 +56,10 @@ function SendQuestion() {
 
     result.scrollTop = result.scrollHeight; 
 }
+document.getElementById("input").addEventListener("change", function() {
+    const fs = new FileReader();
+    fs.readAsText(this.files[0]);
+    fs.onloadend = function() {
+        document.getElementById("output").innerText = fs.result;
+    }
+});
