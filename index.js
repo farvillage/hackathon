@@ -1,18 +1,5 @@
-// const http = require("http");
-// const fs = require("fs");
-// require('dotenv').config()
-
-// const PORT = process.env.PORT || 5001
-
-// const server = http.createServer((req, res) => {
-//   res.writeHead(200, { "content-type": "text/html" });
-//   fs.createReadStream(__dirname+"/public").pipe(res);
-// });
-
-// server.listen(PORT, () => {
-// console.log(process.env.GPT_KEY)
-//   console.log(`Server :${PORT}`);
-// });
+require('dotenv').config()
+console.log(process.env.GPT_KEY)
 const express = require('express');
   const path = require('path');
   
