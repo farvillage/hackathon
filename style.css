@@ -9,6 +9,9 @@ body {
     font-family: Dosis;
     margin: 0;
 }
+html {
+    scroll-behavior: smooth; /*descida suave entre os links*/
+  }
 /*topbar*/
 .header {
     border-radius: 20px;
@@ -62,7 +65,6 @@ a {
     margin: 15px;
     align-items: center;
     justify-content: space-between;
-    
 }
 .links-meditation div {
     box-shadow: 0px 0px 10px 0px #f7a1ba;
@@ -155,6 +157,7 @@ a {
 .img-meditation {
     animation: fadeIn 1s ease-in,
     pulse 3s ease-in-out 2s infinite normal;
+    margin-top: 70px;
 }
 .limpeza-link{
     animation: flipInY 3.5s ease 1;
