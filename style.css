@@ -17,7 +17,6 @@ body {
     margin: 10px;
     font-size: 18px;
     display: flex;
-    box-shadow: 0px 4px 10px 0px #FF7373;
     justify-content: space-between;
 }
 a {
@@ -72,7 +71,7 @@ a {
 }
 .limpeza-link, .yoga-link, .lofi-link, .asmr-link {
     justify-content: space-around;
-    background-color: #FFFDD0;
+    background-color: #FFFFF0;
     border-radius: 12px;
     color: #000;
     cursor: pointer;
@@ -135,7 +134,7 @@ a {
     background: #f7a1ba;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #FFFDD0;
+    background-color: #FFFFF0;
     border-radius: 20px;
 }
 
@@ -150,6 +149,7 @@ a {
     bottom: 0;
     width: 100%;
     align-items: center;
+    box-sizing: border-box; /*scrollbar lateral*/
 }
 /*animações*/
 .img-meditation {
