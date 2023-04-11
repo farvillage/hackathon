@@ -14,10 +14,8 @@ html {
   }
 /*topbar*/
 .header {
-    border-radius: 20px;
     background-color: #f7a1ba;
     padding: 20px;
-    margin: 10px;
     font-size: 18px;
     display: flex;
     justify-content: space-between;
@@ -61,15 +59,14 @@ a {
     background-size: contain;
 }
 .container {
+    padding: 50px;
     display: flex;
-    margin: 15px;
     align-items: center;
-    justify-content: space-between;
 }
 .links-meditation div {
+    margin: 15px;
     box-shadow: 0px 0px 10px 0px #f7a1ba;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 30px;
 }
 .limpeza-link, .yoga-link, .lofi-link, .asmr-link {
     justify-content: space-around;

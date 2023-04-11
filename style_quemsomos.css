@@ -51,12 +51,15 @@ a {
 }
 
 /*home*/
-.somos {
-    display: inline-flex;
-    padding: 15px;
-    width: 90%;
+.ygor {
+    padding: 50px;
     text-align: center;
     justify-content: center;
+}
+.somos {
+    text-align: center;
+    justify-content: center;
+    display: flex;
 }
 .name {
     font-size: 17px;
