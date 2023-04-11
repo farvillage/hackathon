@@ -1,17 +1,20 @@
 const inputQuestion = document.getElementById("inputQuestion");
 const result = document.getElementById("result");
-require('dotenv').config()
 
 inputQuestion.addEventListener("keypress", (e) => {
-    if (inputQuestion.value && e.key === "Enter")
-    SendQuestion();
-    if (inputQuestion.value == 0)
-    return false
+    if (inputQuestion.value && e.key === "Enter"){
+        SendQuestion();   
+    }
+    if (inputQuestion.value == 0){
+        return false
+    }
 });
 
 
 
 function SendQuestion() {
+    const  key = "c2staE1wQk54dEkxWUFtTElwY2ZVbXlUM0JsYmtGSlB5c1FOeW5Vd3pFSVVPVU9lUjFk";
+    var decodedStringAtoB = atob(key);
     var sQuestion = inputQuestion.value;
 
     fetch("https://api.openai.com/v1/completions", {
@@ -19,7 +22,7 @@ function SendQuestion() {
         headers: {
             Accept: "application/json",
             "Content-Type": "application/json",
-            Authorization: "Bearer " + process.env.GPT_KEY,
+            Authorization: "Bearer " + decodedStringAtoB,
         },
         body: JSON.stringify({
             model: "text-davinci-003",
@@ -55,12 +58,5 @@ function SendQuestion() {
     inputQuestion.value = "Carregando... ";
     inputQuestion.disable = true;
 
-    result.scrollTop = result.scrollHeight; 
+    result.scrollTop = result.scrollHeight;
 }
-document.getElementById("input").addEventListener("change", function() {
-    const fs = new FileReader();
-    fs.readAsText(this.files[0]);
-    fs.onloadend = function() {
-        document.getElementById("output").innerText = fs.result;
-    }
-});
