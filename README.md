@@ -1,5 +1,3 @@
-##
-
 ## ZenPlace:
 Our first project for a Hackathon: ZenPlace. <br>
 
@@ -14,5 +12,3 @@ ZenPlace is a virtual environment that uses ChatGPT for the user to vent some of
   @gustavomav (Website Ideas and Structure); <br>
   @Betoitiro; <br>
   @jvuchoa. <br>
-
-##
