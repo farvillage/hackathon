@@ -9,7 +9,7 @@ ZenPlace is a virtual environment that uses ChatGPT for the user to vent some of
 
 I made the deploy in Vercel, so it's now online for the public to use our services.
 
-```https://zenplace-hackathon.vercel.app/index.html```
+<strong>https://zenplace-hackathon.vercel.app/index.html</strong>
 
 ## Our Collaborators: <br>
 
