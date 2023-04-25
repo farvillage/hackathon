@@ -3,15 +3,26 @@
     --secundary-color: #FF7373;
     --terciary-color: rgba(255,204,121,1);
 }
+
 body {
     background-color: #FFFFF0;
     color: black;
     font-family: Dosis;
     margin: 0;
 }
+
 html {
     scroll-behavior: smooth; /*descida suave entre os links*/
   }
+
+@media only screen and (min-width: 768px) {
+ 
+}
+
+@media only screen and (min-width: 1000px) {
+    
+}
+
 /*topbar*/
 .header {
     background-color: #f7a1ba;
@@ -20,34 +31,41 @@ html {
     display: flex;
     justify-content: space-between;
 }
+
 a {
     text-decoration: none; 
     color: black;
 }
+
 .inicio:hover, .desabafe:hover, .quemsomos:hover, .about:hover {
     background-color: #FF7373;
     border-radius: 20px;
     max-width: 100%;
     transition: background-color 500ms ease-in-out;
 }
+
 .navbar_left div, .navbar_right div {
     padding: 8px 25px;
     text-transform: uppercase;
     font-weight: 600;
 }
-.navbar_left { /*Trocar a fonte??*/
+
+.navbar_left {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 24px;
     color: #000
 }
+
 .navbar_left, .navbar_right{
     display: flex;
     align-items: center;
 }
+
 .navbar_left > * {
     padding: 10px;
 }
+
 .navbar_right > * {
     padding: 10px;
 }
@@ -59,16 +77,19 @@ a {
     background-size: contain;
     width: 100%;
 }
+
 .container {
     padding: 50px;
     display: flex;
     align-items: center;
 }
+
 .links-meditation div {
     margin: 15px;
     box-shadow: 0px 0px 10px 0px #f7a1ba;
     padding: 30px;
 }
+
 .limpeza-link, .yoga-link, .lofi-link, .asmr-link {
     justify-content: space-around;
     background-color: #FFFFF0;
@@ -104,6 +125,7 @@ a {
 .background {
     background-color: #c4aee2;
 }
+
 .descricoes {
     border: var(--secundary-color) solid;
     border-radius: 20px;
@@ -113,14 +135,17 @@ a {
     width: 70%;
     margin: auto;
 }
+
 .descricoes a {
     color: var(--secundary-color);
 }
+
 .limpeza-descricao div, .yoga-descricao div, .lofi-descricao div, .asmr-descricao div {
     font-size: 20px;
     padding: 15px;
     text-align: justify;
 }
+
 .limpeza-descricao h1, .yoga-descricao h1, .lofi-descricao h1, .asmr-descricao h1 {
     align-items: center;
     text-align: center;
@@ -130,9 +155,11 @@ a {
 ::-webkit-scrollbar {
     width: 12px;
 }
+
 ::-webkit-scrollbar-track {
     background: #f7a1ba;
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: #FFFFF0;
     border-radius: 20px;
@@ -142,6 +169,7 @@ a {
 .push {
     height: 100px;
 }
+
 .footer {
     background-color: #c4aee2;
     padding: 20px;
@@ -151,12 +179,14 @@ a {
     align-items: center;
     box-sizing: border-box; /*scrollbar lateral*/
 }
+
 /*animações*/
 .img-meditation {
     animation: fadeIn 1s ease-in,
     pulse 3s ease-in-out 2s infinite normal;
     margin-top: 70px;
 }
+
 .limpeza-link{
     animation: flipInY 3.5s ease 1;
 }
