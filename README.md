@@ -14,5 +14,5 @@ I made the deploy of [ZenPlace](https://zenplace-hackathon.vercel.app/index.html
   [@farvillage](https://github.com/farvillage) (Headmaster - HTML, CSS & JavaScript); <br>
   [@sennags](https://github.com/sennags) (CSS Animations & HTML); <br>
   [@gustavomav](https://github.com/gustavomav) (Website Ideas and Structure); <br>
-  [@Betoitiro](https://github.com/Betoitiro); API<br>
+  [@Betoitiro](https://github.com/Betoitiro) (API);<br>
   [@jvuchoa](https://github.com/jvuchoa).<br>
