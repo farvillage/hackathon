@@ -1,4 +1,4 @@
-## ZenPlace:
+# ZenPlace:
 Our first project for a Hackathon: ZenPlace. <br>
 
 ## What is ZenPlace? 
@@ -11,8 +11,8 @@ I made the deploy of [ZenPlace](https://zenplace-hackathon.vercel.app/index.html
 
 ## Our Collaborators: <br>
 
-  @farvillage (Headmaster - HTML, CSS & JavaScript); <br>
-  @sennags (CSS Animations & HTML); <br>
-  @gustavomav (Website Ideas and Structure); <br>
-  @Betoitiro; <br>
-  @jvuchoa. <br>
+  [@farvillage](https://github.com/farvillage) (Headmaster - HTML, CSS & JavaScript); <br>
+  [@sennags](https://github.com/sennags) (CSS Animations & HTML); <br>
+  [@gustavomav](https://github.com/gustavomav) (Website Ideas and Structure); <br>
+  [@Betoitiro](https://github.com/Betoitiro); API<br>
+  [@jvuchoa](https://github.com/jvuchoa).<br>
