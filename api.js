@@ -13,9 +13,9 @@ inputQuestion.addEventListener("keypress", (e) => {
 
 
 function SendQuestion() {
-    const  key = "c2staE1wQk54dEkxWUFtTElwY2ZVbXlUM0JsYmtGSlB5c1FOeW5Vd3pFSVVPVU9lUjFk";
-    var decodedStringAtoB = atob(key);
-    var sQuestion = inputQuestion.value;
+    const  key = "c2staE1wQk54dEkxWUFtTElwY2ZVbXlUM0Jssk-TgomBndMyqQNi0EknWVCT3BlbkFJY1LRkQ9VOi1J6bp44qHgYmtGSlB5c1FOeW5Vd3pFSVVPVU9lUjFk";
+    const decodedStringAtoB = atob(key);
+    const sQuestion = inputQuestion.value;
 
     fetch("https://api.openai.com/v1/completions", {
         method: "POST",
@@ -38,7 +38,7 @@ function SendQuestion() {
             if (json.error?.message) {
                 result.error += `Error: ${json.error.message}`;
             } else if (json.choices?.[0].text) {
-                var text = json.choices[0].text || "Sem resposta";
+                const text = json.choices[0].text || "Sem resposta";
 
                 result.value += "... " + text;
             }
